@@ -1,0 +1,44 @@
+<html>
+<head><title>Hotel Booking</title>
+<style>
+body {
+    background-image: url("back.jpg");
+    color:white;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+th, td {
+    padding: 10px;
+}
+
+
+</style></head>
+<body>
+	<div>
+		<h1>Hotel Reservation Form</h1>
+		<form action="success1.php" method="post">
+		<table  align="center" border="0">
+		<tr><td>First Name:</td><td><input type="text" size="30" name="fname"/></br></td></tr>
+		<tr><td>Last Name:</td><td><input type="text" size="30" name="lname"/></br></td></tr>
+		<tr><td>Hotel Type:</td><td><select name="htype" size="1">
+		<option value="7star">7 Star</option>
+		<option value="5Star">5 Star</option>
+		<option value="3Star">3 Star</option>
+		<option value="lodge">Lodge</option>
+		</select></tr></td>
+		<tr><td>Room Type:</td><td><select name="rtype" size="1">
+		<option value="single">Single</option>
+		<option value="double">Double</option>
+		</select></tr></td>
+		<tr><td>No. Of Persons:</td><td><input type="text" size="5" name="per"/></td></tr>
+		<tr><td>No. Of Rooms:</td><td><input type="text" size="5" name="num"/></td></tr>
+		<tr><td>Check-In Date:</td><td><input type="date" value="01/01/2015" name="datein"/></td></tr>
+		<tr><td>Check-Out Date:</td><td><input type="date" value="01/01/2015" name="dateout"/></td></tr>
+		<tr><td>Email Id:</td><td><input type="text" name="email"/></td></tr>
+		<tr><td colspan="2" align="center"><input type="submit"  value="Submit" /></td></tr>
+	</table>
+	</form>
+	</div>
+	</body>
+	</html>

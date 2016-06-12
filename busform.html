@@ -1,0 +1,38 @@
+<html>
+<head><title>Bus Booking</title>
+<style>
+body {
+    background-image: url("back.jpg");
+    color:white;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+th, td {
+    padding: 15px;
+}
+
+
+</style></head>
+<body>
+	<div>
+		<h1>Bus Reservation Form</h1>
+		<form action="success.php" method="post">
+		<table  align="center" border="0">
+		<tr><td>Enter Source:</td><td><input type="text" size="30" name="src"/></br></td></tr>
+		<tr><td>Enter Destination:</td><td><input type="text" size="30" name="des"/></br></td></tr>
+		<tr><td>Bus Type:</td><td><select name="type" size="1">
+		<option value="Volvo Multi A/C">Volvo A/C Multi Axle Semi Sleeper</option>
+		<option value="Non A/C">Non A/C Seater/Sleeper</option>
+		<option value="Volvo A/C">Volvo A/C Seater</option>
+		<option value="Executive">Executive Air Bus</option>
+		</select></tr></td>
+		<tr><td>Date:</td><td><input type="date" value="01/01/2015" name="date"/></td></tr>
+		<tr><td>Email Id:</td><td><input type="text" name="email"/></td></tr>
+		<tr><td colspan="2" align="center"><input type="submit"  value="Submit" /></td></tr>
+	</table>
+	</form>
+	</div>
+	</body>
+	</html>
+	
